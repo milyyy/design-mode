@@ -1,10 +1,1 @@
-class Person {
-	constructor(name) {
-		this.name = name;
-	}
-	getName() {
-		return this.name;
-	}
-}
-let p = new Person('mily');
-alert(p.getName())
+import './01面向对象/index'; // 继承、封装
